@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="farmerlogin.css">
+    <title>Farmer Login Page</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li class="active"><a href="homepage.html" >Home</a></li>
+            <li><a href="#">Blogs</a></li>  
+            <li><a href="newspage.html">News</a></li>      
+            <li><a href="stores.html">Our Products</a></li>                         
+             
+            <li><a href="#">My account</a>
+               <div class="add-submenu">
+                   <ul>
+                       <li><a href="#"><i class="fas fa-thin fa-arrow-right-long"></i>As Customer</a></li>
+                       <li><a href="#"> <i class="fas fa-thin fa-arrow-right-long"></i>As Farmer</a></li>
+                       <li><a href="#"><i class="fas fa-thin fa-arrow-right-long"></i> As Expert</a></li>  
+                                           
+                       
+                   </ul>
+               </div>
+            </li>           
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="login-title">
+        <p> Farmer Login Panel</p></div>
+    <div class="login_section">        
+        <div class="staff-image">
+            <h3>Farmer Login</h3>
+            <img src="farmerimage.png" alt="">
+        </div>
+        
+        <form class="login-page" method="post"action="/login">
+            <h1>Login Panel</h1>
+           <label for="" >UserName: </label>
+           <input type="text" name="username">
+           <label for=""name="password">Password: </label>
+           <input type="password"name="password">
+           <a href="farmer.html">Click here to login</a>
+           <p class="asking">Not Registered? <a href=""class="register">Register</a></p>
+        </form> 
+    </div>
+   
+</body>
+</html>

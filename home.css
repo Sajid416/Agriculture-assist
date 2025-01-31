@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: Tahoma;
+    font-size: 16px;
+    
+}
+hr{
+    margin-top:20px ;
+}
+body{
+    width: 100%;
+    background-color: #ddd;   
+    border:2px solid #06fa7c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+ .heading {
+    background: rgba(6, 170, 6, 0.5);  
+    color: #fff;
+   padding:10px;
+    text-align: center;
+    
+    
+    
+}
+ .navbar{  
+    position:absolute;
+    background-color: #d63031; 
+    opacity:0.8;   
+    width:100%;
+    position:sticky; 
+    top:0;
+   
+  
+     
+}
+.add-submenu{
+    display: none;
+ }
+
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    
+
+    
+}
+.navbar ul li{
+    
+    margin: 10px;
+    padding: 5px;
+    color: #e6eef7;
+   
+    
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #e6eef7;
+   
+    
+}
+.active{
+    background: rgba(174, 219, 174, 0.5);  
+}
+.slider{
+    
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    background-color: aquamarine;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:  auto;
+    /* margin-left: 25px; */
+    margin-top: 5px;
+    background: url(https://img.freepik.com/free-photo/agriculture-iot-with-rice-field-background_53876-124635.jpg?w=2000);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;  
+    border-radius: 5px;     
+    animation: changeimage 20s infinite;
+
+}
+@keyframes changeimage {
+    25%{
+        background:url(https://img.freepik.com/free-photo/green-tea-bud-leaves-green-tea-plantations-morning_335224-955.jpg?w=2000) ; 
+        background-size:100%;
+        background-repeat:no-repeat;
+        background position:center ; 
+    }  
+    50%{
+       
+        background:url(https://previews.123rf.com/images/belchonock/belchonock1711/belchonock171101790/90616642-icons-and-field-on-background-concept-of-smart-agriculture-and-modern-technology.jpg);  
+        background-size:100%;
+        background-repeat:no-repeat;
+        background position:center; 
+    }   
+    75%{
+       
+        background:url(https://c8.alamy.com/comp/2BFPX09/icons-and-field-on-background-concept-of-smart-agriculture-and-modern-technology-2BFPX09.jpg);  
+        background-size:100%;
+        background-repeat:no-repeat;
+        background position:center; 
+    }   
+    100%{
+       
+        background:url(https://agriculturistmusa.com/wp-content/uploads/2020/03/Agribusiness-system-concept-with-background.jpg);  
+        background-size:100%;
+        background-repeat:no-repeat;
+        background position:center;
+
+    } 
+    
+}
+ footer{
+    display:flex;
+ }
+.footer_section .about{
+    width: 60%;
+    margin:10px;
+    margin-left: 20px;
+   
+}
+.fruit_image{
+    width:40%;
+    margin:15px;
+    border-right: 2px solid rgb(31, 28, 28);
+    display: inline-block;
+    padding: 5px;
+    
+    
+}
+.fruit_image img{
+   width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+ 
+   
+}
+
+.footer_section .about{
+    display: inline-block;
+    padding: 5px;
+    color: #0a0a23;
+    
+}
+.footer_section .about h1{
+   border-bottom:2px solid #0a0a23;
+   padding: 5px;
+}
+.footer_section .about h1{
+    color: #0a0a23;
+    justify-content: center;
+}
+.first_pera ,.second_pera{
+    margin: 15px;
+}
+
+
+.fas{
+    color: #374207;
+    font-size: 10px;
+    margin: 0 auto;
+    border-radius: 50%;
+    float: left;
+    
+}
+.about ul li{
+    list-style: none;
+    margin: 10px 10px 10px 20px;
+}
+.login_section{
+    display: flex;
+}
+.login_section .customer{
+    width: 25%;
+    height: 200px;
+    background-color: #e6eef7;
+    margin: 20px;
+    display:block;
+    padding: 5px;
+
+}
+.login_section h2,p,button{
+    margin:5px;
+    text-align: center;
+}
+.login_section .btn{
+    width:40%;
+    margin-left: 50px;
+}
+.login_section .btn:first-of-type{
+    width:40%;
+    margin-top:20px;
+}
+.login_section .fad{
+    position:relative;
+     width: 100%;
+    display: block-inline;
+    margin-bottom:15px ;
+   
+}
+.login_section .fad .fas{
+    position:absolute;
+    width: 15px;
+    margin-left: 110px;
+   
+}
+.login_section .fad .fas {
+    font-size: 17px;
+   
+}
+
+.login_section .customer{
+    margin: 5px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+
+}
+
+.login_section .farmer{
+    width: 25%;   
+    background-color: #e6eef7;
+    margin: 5px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+.login_section .expert{
+    
+    height: 200px;
+    background-color: #e6eef7;
+    margin: 5px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+
+}
+.login_section .farmer button{
+    margin-top: 0;
+    border-radius: 5px;
+    
+}
+.login_section a{
+    text-decoration: none;
+}
+.login_section .btn:hover{
+    background-color: #06fa7c;
+}
+.footer_part{
+    display: flex;
+}
+
+
+.add_card{
+    background-color:#FF827A;   
+    width:30%;
+    height:420px;     
+    margin: 10px 40px; 
+    display:flex;   
+    border-radius: 5px;
+    margin-left: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.add_card .ads {
+    margin-left: 90px;
+    width: 40%;
+    text-align: center;
+    font-family: arial;
+    color: black;    
+    padding: 2px;
+    border-bottom: 2px dotted white;
+}
+.add_card .pesticides-image img{
+    /* position: absolute; */
+    overflow: hidden;
+    display: block;
+    width: 70%;   
+    margin: 20px auto;
+    border: 2px solid #C4C940;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    
+}
+.add_card .text{
+     width:100% ;
+     overflow: hidden;
+     display: block;      
+     background: linear-gradient(-70deg,#f92121 15%,#d63031 20.9%,#d63031 82%,#fb3d3d 86.8%);
+     
+}
+.add_card .text h2{
+    margin: 3px;
+    margin-left:95px;
+
+    
+}
+.add_card .text p{
+    margin: 3px;
+    margin-left:25px;
+
+    
+}
+
+.add_card .text h1,h2{
+    margin: 3px;
+    margin-left:80px;
+
+    
+}
+.add_card .text .btn{
+    
+    margin: 5px;
+    margin-left:70px;
+    padding: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.3);
+    background-color: #fff;
+    border:2px;
+    border-radius: 5px;
+    color: #0a0a23;
+    font-size: 14px;
+    
+}
+.add_card .farmer{
+    
+    width: 75%;
+    height: 120px;
+    margin: 15px auto;
+}
+.add_card .farmer img{   
+    
+    width: 100%;
+    height: 110px;    
+    position:center;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    border: 2px solid #C4C940;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.footer_part .admin-login{    
+    width: 30%;
+    height: 200px;    
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color:#999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+
+}
+ .admin-area{    
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    
+
+}
+.footer_part .admin-login h2{    
+   
+   margin: 10px;
+
+
+}
+.admin-area .login_link{
+    width:160px;
+    background-color: rgb(205, 201, 201);
+    padding:5px;
+    color:#fff;
+    text-decoration: none;  
+    margin:20px;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+    
+}
+.login_link a{
+    text-decoration: none;
+}

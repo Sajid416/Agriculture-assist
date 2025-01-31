@@ -1,0 +1,60 @@
+.fas{
+    color: #374207;
+    font-size: 10px;
+    margin-right: 4px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0;
+   
+}
+.add-submenu{
+    display: none;
+}
+.active,.navbar ul li:hover{
+    background: rgb(0,100,0,0.6);
+    border-radius: 3px;
+    transform: scale(1.1);
+  }
+.navbar ul li:hover .add-submenu{
+    width: 200px;
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0,0.6);
+    margin-top: 5px;
+    margin-left: 0;
+   
+
+}
+
+.navbar ul li:hover .add-submenu ul{
+    display: block;
+    margin: 5px;
+   
+
+}
+.navbar ul li:hover .add-submenu ul li{
+    
+   width: 190px;
+   text-align: left;
+   margin-left: 0;
+   background: transparent;
+   border-bottom: 1px dotted black;
+   border-radius: 0;
+   
+
+}
+/*.navbar ul li:hover .add-submenu ul li:hover{
+    
+    background: #2bab0d;
+ 
+ }*/
+.navbar ul li:hover .add-submenu ul li:last-child{    
+  
+    border-bottom:0;   
+ 
+ }
+ .navbar ul li:hover .add-submenu ul li a:hover{    
+  
+    color:rgb(0, 100,0);   
+ 
+ }

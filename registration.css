@@ -1,0 +1,49 @@
+.registration_form{
+ 
+    width: 40%;
+    height: 550px;
+    margin: 70px auto;
+    background-color:#FFFFFF ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 10px;
+  
+    
+
+}
+ .registration_form .heading{
+   margin-left: 130px;
+   margin-top: 10px;
+   padding-top: 10px;
+   font-size: 18px;
+   font-family: 'san-serif';
+  
+    
+}
+
+input[type=text],input[type=email],input[type=password]{
+    width: 70%;
+    padding: 3px;
+    display: block;
+    margin: 20px auto;
+    box-sizing: border-box;
+
+    
+}
+input[type=radio],input[type=checkbox]{
+    display: inline;
+    margin:10px 10px 10px 80px;
+}
+#female{
+    margin:10px 10px 10px 30px;
+}
+select{
+    display:block;
+    margin: 10px 10px 10px 62px ;
+    width: 70%;
+}
+input[type=submit]{
+    display: block;
+    width: 20%;
+    margin: 10px 10px 10px 150px;
+}
+

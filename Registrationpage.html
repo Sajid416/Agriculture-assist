@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="news.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="registration.css" />
+    <title>Registration Form.</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li class="active"><a href="homepage.html">Home</a></li>
+        <li><a href="blogpage.html">Blogs</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="stores.html">Our Products</a></li>                         
+             
+        <li>
+          <a href="#">My account</a>
+          <div class="add-submenu">
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-thin fa-arrow-right-long"></i>As Customer</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-thin fa-arrow-right-long"></i>As Farmer</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-thin fa-arrow-right-long"></i> As Expert</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+
+    <div class="registration_form">
+      <h2 class="heading">Registration Form</h2>
+      <div class="registration">
+        <form action="">
+          <input type="email" name="" id="email" placeholder="Email" required />
+          <input type="password" id="pass"  placeholder="Password" required />
+          <input type="password" id="repass" placeholder="Retype Password" required />
+          <input type="text" name="" id="cnum" placeholder="contact number" />
+          <input type="text" name="" id="fname" placeholder="First Name" required />
+          <input type="text" name="" id="lname" placeholder="Last Name" required />
+          <label for="male"
+            ><input
+              type="radio"
+              value="male"
+              name="gender"
+              id="male"
+              required
+            />Male</label
+          >
+          <label for="female"
+            ><input
+              type="radio"
+              value="female"
+              name="gender"
+              id="female"
+              required
+            />Female</label
+          >
+
+          <select name="country" id="country">
+            <option value="">select a country.</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="india">India</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="srilanka">Srilanka</option>
+          </select>
+          <label for="term"
+            ><input type="checkbox" name="condition" id="term" /> I agree with
+            terms and conditions.</label
+          >
+          <input type="submit" name="" id="submit" />
+        </form>
+      </div>
+    </div>
+
+    <script src="registration.js"></script>
+  </body>
+</html>
